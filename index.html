@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MyLoader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="stage" aria-label="Simulación 3D del Tomy Big Loader"></main>
+  <header class="panel">
+    <div class="brand"><span class="eyebrow">SIMULADOR MECÁNICO 3D</span><h1>MyLoader</h1><p>Un chasis. Tres carrocerías. Un ciclo sin fin.</p></div>
+    <div class="controls">
+      <button id="play" type="button">Pausar</button><button id="reset" type="button">Reiniciar</button>
+      <label>Velocidad <select id="speed"><option value="0.35">Lenta · 0,35×</option><option value="1" selected>Normal · 1×</option><option value="2">Rápida · 2×</option></select></label>
+      <button id="camera" type="button">Restaurar cámara</button><button id="sound" type="button" aria-pressed="false">Sonido: no</button>
+    </div>
+    <div class="readout"><span id="phase">Preparando circuito</span><span id="count">Ciclos: 0</span></div>
+  </header>
+  <div class="hint">Arrastra para girar · rueda para acercar · botón derecho para desplazar</div>
+  <script src="three.min.js"></script>
+  <script src="sim.js"></script>
+</body>
+</html>
