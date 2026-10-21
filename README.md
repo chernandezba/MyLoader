@@ -2,6 +2,12 @@
 
 Prototipo 3D local inspirado en el Tomy Big Loader clásico de 1977.
 
+## Captura del juego
+
+![Vista actual del simulador MyLoader](screenshot.png)
+
+Esta captura muestra el estado actual del prototipo. Se actualizará a medida que avance el desarrollo, sustituyendo `screenshot.png` por una nueva captura.
+
 ## Ejecutar
 
 Abre `index.html` con doble clic en Firefox, Safari o Chrome. No requiere servidor, conexión, instalación ni npm. `three.min.js` está incluido en esta carpeta (Three.js r149, licencia MIT).
@@ -24,3 +30,4 @@ Este es un **primer prototipo**. Muestra un chasis, tres carrocerías intercambi
 - `sim.js`: escena, geometría, reloj, ciclo y controles.
 - `three.min.js`: biblioteca Three.js distribuida localmente.
 - `MECHANICS.md`: investigación y asuntos pendientes.
+- `screenshot.png`: captura actual del juego mostrada arriba.
